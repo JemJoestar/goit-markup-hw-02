@@ -66,11 +66,7 @@ h6 {
 }
 
 /* contacts */
-.contacts {
-}
-/* .contacts > ul {
-    list-style: none;
-} */
+
 .contacts-links {
   color:var(--main-text-color);
   text-decoration: none;
@@ -130,8 +126,7 @@ h6 {
 
 /* Portfolio */
 /* portfolio buttons */
-.portfolio-filters {
-}
+
 .portfolio-filter-button {
   width: 116px;
   height: 48px;
@@ -149,8 +144,7 @@ h6 {
   border: none;
 }
 /* portfolio photos */
-.portfolio-list {
-}
+
 .portfolio-items {
   box-sizing: border-box;
   width: 360px;
