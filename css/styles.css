@@ -107,9 +107,9 @@ h6 {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: #4d5ae5;
   color: var(--primary-bg-color);
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
@@ -151,6 +151,7 @@ h6 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* Portfolio */
