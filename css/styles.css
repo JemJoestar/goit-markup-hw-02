@@ -97,9 +97,9 @@ h6 {
   color: #ffffff;
 }
 
-.button,
+
 .hero-button {
-  background-color: #4D5AE5;
+  background-color: var(--primaty-accent-color);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
