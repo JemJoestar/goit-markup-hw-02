@@ -87,7 +87,7 @@ h6 {
 /* Hero */
 .hero {
   text-align: center;
-  background-color: var(--main-title-color)
+  background-color: var(--main-title-color);
 }
 .hero-header {
   font-weight: 700;
@@ -108,13 +108,13 @@ h6 {
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   color: var(--primary-bg-color);
 }
 
 .hero-button:hover,
-.hero-button:focus{
-  background-color: #404BBF;
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 /* secondry title */
@@ -137,16 +137,14 @@ h6 {
 }
 /* what are we doing */
 
-
-
 /* Our team */
-.our-team{
-  background-color: #F4F4FD;
+.our-team {
+  background-color: #f4f4fd;
 }
-.our-team-item{
+.our-team-item {
   background-color: #ffffff;
 }
-.our-team-title{
+.our-team-title {
   letter-spacing: 0.02em;
 }
 .names {
@@ -155,14 +153,13 @@ h6 {
   line-height: 1.2;
 }
 
-
 /* Portfolio */
 /* portfolio buttons */
 
 .portfolio-filter-button {
   width: 116px;
   height: 48px;
-  font-family: "Roboto", sans-serif ;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -175,11 +172,14 @@ h6 {
 .portfolio-filter-button:hover,
 .portfolio-filter-button:focus {
   color: #ffffff;
-  background-color: #404BBF;
+  background-color: #404bbf;
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border: none;
+}
+.portfolio-items-text {
+  color: var(--main-text-color);
 }
 /* portfolio photos */
 
@@ -197,7 +197,7 @@ h6 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: var(--main-title-color);
 }
 /* Footer */
 .footer {
