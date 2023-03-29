@@ -4,13 +4,13 @@
   --main-title-color: #2e2f42;
   --secondary-bg-color: #f4f4fd;
   --primaty-accent-color: #4d5ae5;
+  --secondary-accent-color: #404bbf;
 }
 
 body {
   background-color: var(--primary-bg-color);
   color: var(--main-text-color);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
   font-weight: 400;
   font-size: 16px;
@@ -38,13 +38,14 @@ h6 {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--primaty-accent-color);
 }
 .logo-first-color {
-  color: var(--main-text-color);
+  color: var(--main-title-color);
 }
 .logo-second-color {
   color: #ffffff;
@@ -52,23 +53,30 @@ h6 {
 /* Navigation */
 
 .navigation-link-item {
-  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: var(--main-title-color);
 }
-
+.navigation-link-item:hover,
+.navigation-link-item:focus {
+  color: var(--secondary-accent-color);
+}
+.link {
+  text-decoration: none;
+}
 .link:hover,
 .link:focus {
-  color: var(--primaty-accent-color);
+  color: var(--secondary-accent-color);
 }
 
 /* contacts */
-
+.contacts {
+  font-style: normal;
+}
 .contacts-links {
-  color:var(--main-text-color);
+  color: var(--main-text-color);
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
@@ -79,45 +87,64 @@ h6 {
 /* Hero */
 .hero {
   text-align: center;
+  background-color: var(--main-title-color)
 }
 .hero-header {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
-.hero-button{
+.hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   padding: 16px 32px 16px 32px;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: var(--primaty-accent-color);
   color: var(--primary-bg-color);
 }
 
+.hero-button:hover,
+.hero-button:focus{
+  background-color: #404BBF;
+}
 
 /* secondry title */
 .secondry-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
+  text-transform: capitalize;
 }
 
 /* skills */
 
 .skills-title {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
+/* what are we doing */
+
+
 
 /* Our team */
+.our-team{
+  background-color: #F4F4FD;
+}
+.our-team-item{
+  background-color: #ffffff;
+}
 .names {
   font-weight: 500;
   font-size: 20px;
