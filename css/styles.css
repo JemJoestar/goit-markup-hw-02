@@ -1,0 +1,178 @@
+:root {
+  --primary-bg-color: #ffffff;
+  --main-text-color: #434455;
+  --main-title-color: #2e2f42;
+  --secondary-bg-color: #f4f4fd;
+  --primaty-accent-color: #4d5ae5;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--main-text-color);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--main-title-color);
+}
+
+.header {
+  border-bottom: 1px var(--main-text-color) solid;
+}
+.list {
+  list-style: none;
+}
+/* Logo stiles */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--primaty-accent-color);
+}
+.logo-first-color {
+  color: var(--main-text-color);
+}
+.logo-second-color {
+  color: #ffffff;
+}
+/* Navigation */
+
+.navigation-link-item {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--primaty-accent-color);
+}
+
+/* contacts */
+.contacts {
+}
+/* .contacts > ul {
+    list-style: none;
+} */
+.contacts-links {
+  color: #434455;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+}
+.hero-header {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+}
+
+.hero-button{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 16px 32px 16px 32px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: var(--primaty-accent-color);
+  color: var(--primary-bg-color);
+}
+
+
+/* secondry title */
+.secondry-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+/* skills */
+
+.skills-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/* Our team */
+.names {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/* Portfolio */
+/* portfolio buttons */
+.portfolio-filters {
+}
+.portfolio-filter-button {
+  width: 116px;
+  height: 48px;
+  background: --secondary-bg-color;
+  color: var(--primaty-accent-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.portfolio-filter-button:hover,
+.portfolio-filter-button:focus {
+  color: #ffffff;
+  background-color: var(--primaty-accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: none;
+}
+/* portfolio photos */
+.portfolio-list {
+}
+.portfolio-items {
+  box-sizing: border-box;
+  width: 360px;
+  height: 420px;
+  left: 156px;
+  top: 288px;
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
+}
+.portfolio-items-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* Footer */
+.footer {
+  background-color: var(--main-title-color);
+  color: var(--secondary-bg-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
