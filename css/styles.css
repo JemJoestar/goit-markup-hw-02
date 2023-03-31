@@ -98,7 +98,7 @@ h6 {
 }
 
 /* Як же мене заєбали всі ці баги*/
-.hero-button {
+.hero-button.button{
   background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
