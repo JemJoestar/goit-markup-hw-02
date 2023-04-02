@@ -11,6 +11,7 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--main-text-color);
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   letter-spacing: 0.02em;
   font-weight: 400;
   font-size: 16px;
@@ -35,7 +36,6 @@ h6 {
 /* Logo stiles */
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -66,22 +66,22 @@ h6 {
 .link {
   text-decoration: none;
 }
-.link:hover,
-.link:focus {
-  color: var(--secondary-accent-color);
-}
+
 
 /* contacts */
 .contacts {
-  font-style: normal;
+  font-style: inherit;
 }
 .contacts-links {
   color: var(--main-text-color);
   text-decoration: none;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+}
+.contacts-links:hover,
+.contacts-links:focus{
+  color: var(--secondary-accent-color);
 }
 
 /* Hero */
@@ -207,7 +207,6 @@ h6 {
 .footer {
   background-color: var(--main-title-color);
   color: var(--secondary-bg-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
